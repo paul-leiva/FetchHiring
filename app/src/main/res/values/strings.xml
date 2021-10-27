@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FetchHiring</string>
+    <string name="button_text1">View List</string>
+    <string name="column1Header">listId</string>
+    <string name="column2Header">name</string>
+    <string name="column3Header">id</string>
+</resources>
