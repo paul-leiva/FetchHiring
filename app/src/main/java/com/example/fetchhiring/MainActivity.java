@@ -70,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             url = new URL(urlString);
-            System.out.println("Trying!!!");
             conn = (HttpURLConnection) url.openConnection(); // open the connection
             InputStream in = new BufferedInputStream(conn.getInputStream());
             BufferedReader reader = new BufferedReader(new InputStreamReader(in));
@@ -81,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         catch( Exception e) {
-            System.out.println("Exception: ");
             e.printStackTrace();
         }
         finally {
