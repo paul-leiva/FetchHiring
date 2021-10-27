@@ -12,3 +12,5 @@ This is the take home test submission for **Paul Leiva** for Fetch Rewards.
 6. You should then see the list displayed.
 
 See Demo GIF below:
+<br>
+<img src="https://github.com/paul-leiva/FetchHiring/blob/master/gifdemo.gif" height="750"><br>
