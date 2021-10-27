@@ -9,7 +9,6 @@
     android:weightSum="100">
 
 
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
@@ -19,7 +18,8 @@
         android:layout_weight="33.3"
         android:background="#ffffff"
         android:text="listId"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textStyle="normal" />
 
     <TextView
         android:id="@+id/textView2"
@@ -30,7 +30,8 @@
         android:layout_weight="33.3"
         android:background="#ffffff"
         android:text="name"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textStyle="normal" />
 
     <TextView
         android:id="@+id/textView3"
@@ -41,5 +42,6 @@
         android:layout_weight="33.3"
         android:background="#ffffff"
         android:text="id"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textStyle="normal" />
 </LinearLayout>
